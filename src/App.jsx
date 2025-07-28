@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
 
-const App = () => {
+const App = () => {  
   return (
     <div className="bg-[#050414]">
 
