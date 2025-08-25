@@ -53,7 +53,7 @@ import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
+import sensai from './assets/work_logo/sensai.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
@@ -210,8 +210,19 @@ export const SkillsInfo = [
       github: "https://github.com/sairaj321",
       webapp: "",
     },
-    {
+
+     {
       id: 2,
+      title: "SensAI – Your Personal AI Coach for Professional Success",
+      description:
+        "SensAI is an AI-powered career development platform that helps professionals grow with tools like real-time industry insights, an intelligent resume builder, interview preparation with instant feedback, and an easy cover letter creator. It also offers automated weekly updates via Inngest and secure authentication with Clerk, ensuring a seamless and reliable user experience",
+      image: sensai,
+      tags: ["Next.js", "Tailwind CSS", "Shadcn UI",'Prisma ORM', "Neon Postgres DB","Clerk","Gemini API","Inngest"],
+      github: "https://github.com/sairaj321/career-coach",
+      webapp: "https://coachai-five.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Virtual Image Consulting Dressing Room",
       description:
         "Developed an AI-powered virtual dressing room that enables users to try on digital outfits in real time with virtual consultant support. The system captures live video input through a webcam, detects body landmarks using MediaPipe, and maps virtual garments onto a 2D avatar based on camera-based body measurements. This enhances personalization and fitting accuracy, allowing users to better visualize clothing style and size. The backend, built with Django, manages user sessions, garment selection, and interaction flow. This solution significantly improves the online shopping experience while reducing return rates due to sizing or style mismatches.",
@@ -221,7 +232,7 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "KrushiMitra AI – Smart Farming Assistant",
       description:
         "Built an AI-powered chatbot using Salesforce Einstein Bots to assist farmers with smart farming practices. The chatbot was integrated with custom Salesforce objects to securely manage user registrations and farming-related data. Developed dynamic CRM features using Apex and Lightning Web Components (LWC) to streamline user interactions and automate backend processes. The solution enhances user engagement and promotes digital transformation in agriculture through intelligent automation and data-driven communication.",
@@ -231,7 +242,7 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 4,
+      id: 5,
       title: "Airline Management System",
       description:
         "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
@@ -240,16 +251,7 @@ export const SkillsInfo = [
       github: "",
       webapp: "",
     },
-    {
-      id: 5,
-      title: "Airline Management System",
-      description:
-        "Developed a cloud-based Airline Management System using Salesforce to streamline airline operations such as ticket booking, passenger management, and flight scheduling. Leveraged Salesforce objects and relationships to model real-time data interactions between flights, customers, and bookings. Implemented business logic using Apex and created dynamic user interfaces with Lightning Web Components (LWC). The system ensures efficient data handling, reduces manual effort, and enhances customer service with automation and validation features.",
-      image: webverLogo,
-      tags: ["Apex", "SOQL", "Salesforce Lightning","LWC","Validation Rules"," Process Builder"],
-      github: "",
-      webapp: "",
-    },
+    A
     // {
     //   id: 6,
     //   title: "Coding Master",
