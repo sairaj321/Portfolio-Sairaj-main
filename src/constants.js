@@ -251,7 +251,7 @@ export const SkillsInfo = [
       github: "",
       webapp: "",
     },
-    A
+    
     // {
     //   id: 6,
     //   title: "Coding Master",
